@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+/***PARALLAX HOME & ABOUT***/  
+
+.parallax, .parallax2{
+     /* The image used */
+     background-image: url("assets/images/k.png");
+
+     /* Set a specific height */
+     max-width: 3600px;
+     min-height: 800px; 
+ 
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.content, .content2{
+height:400px;
+background-color: deeppink;
+font-size: 23px;
+font-family: 'Quicksand', sans-serif;
+color: white;
+padding: 20vh 10vw 0 10vw;
+line-height: 2.3em;
+}
+
+.content2{
+    height:500px;
+    background-color: rgb(20, 255, 224);
+    }
+
+/***NAVBAR***/
+
+/*para quitar la sombra de la navbar*/
+.z-depth-0 {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0);
+  }
+
+body > nav > div {
+    box-shadow: 0 0 0 ;
+}
+
+#nav-mobile > li:nth-child(1) > a, #nav-mobile > li:nth-child(5) > a, #nav-mobile > li:nth-child(9) > a {
+    color:deeppink;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#nav-mobile > li:nth-child(3) > a, #nav-mobile > li:nth-child(7) > a{
+    color:#E776A3;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+/*hover*/
+#nav-mobile > li:nth-child(1) > a:hover, #nav-mobile > li:nth-child(3) > a:hover, #nav-mobile > li:nth-child(5) > a:hover, #nav-mobile > li:nth-child(7) > a:hover, #nav-mobile > li:nth-child(9) > a:hover{
+    /* background-color:pink; */
+    font-size: 1.1em;
+    font-weight: 500;
+    background: white;
+}
+
+body > div.navbar-fixed > nav > div > a > img{
+    margin-top: 10px;
+}
+
+/***ABOUT***/
+
+/* .description p{
+    background-color: rgba(240, 229, 233, 0.6);
+    padding: 25px 20px 0 25px;
+    animate:cubic-bezier(.83,.1,.6,.41) 
+}
+
+.name{
+    color:rgb(245, 28, 136);
+    font-size: 30px; 
+}*/
+
+.animation{
+    text-align: center;
+}
+
+/* .line{
+    color:black;
+} */ 
+
+    
+.about-me-container{
+    position: relative;
+    height:700px;
+    width: auto;
+    background-image: url(assets/images/aboutme3.jpg);
+    background-position: 60% 35%;
+    background-size: 85%;
+    background-attachment: fixed;
+    overflow:hidden;
+}
+
+.y-t{
+    width:300px;
+    position: absolute;
+    top:100px;
+    right: 300px;  
+   
+}
+
+.y-c{
+    width:120px;
+    position: absolute;
+    bottom:80px;
+    left: 50px;
+}
+
+.p-t{
+    width:300px;
+    position: absolute;
+    top:100px;
+    left: -120px;
+}
+
+.p-c{
+    width:150px;
+    position: absolute;
+    bottom:50px;
+    right: 80px;  
+}
+
+/* .p-c{
+    width: 45%;
+    height:100%;
+    background-image: url(assets/images/png/p-c.png);
+    background-repeat: no-repeat;
+    position:absolute;
+    top: 100px;
+    margin-bottom: -5px;
+} */
+
+
+.b-w{
+    width:400px;
+    position: absolute;
+    top:440px;
+    left: -100px;
+}
+
+.b-w-2{
+    width:500px;
+    position: absolute;
+    top:-50px;
+    right: -30px;
+}
+
+
